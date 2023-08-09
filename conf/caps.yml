@@ -1,0 +1,19 @@
+# platformName
+platformName: 'Android'
+# platformVersion
+platformVersion: '8.0'
+# deviceName
+deviceName: 'WQVNW18305004438'
+# 包名
+appPackage: 'com.boxuegu'
+# 界面名
+appActivity: 'com.boxuegu.activity.users.WelcomeActivity'
+# 解决中文
+unicodeKeyboard: True
+resetKeyboard: True
+# 获取toast
+automationName: "uiautomator2"
+# 不清除app里的原有数据
+#noReset: "noReset"
+
+#yaml_demo2.py
