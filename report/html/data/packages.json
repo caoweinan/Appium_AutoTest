@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.TestKeywords",
+    "children" : [ {
+      "name" : "Case_001-登录失败",
+      "uid" : "ae470f5b0f1072d3",
+      "parentUid" : "1bb5cafdc86a8222adeccc6a41d2c090",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691584900381,
+        "stop" : 1691584920845,
+        "duration" : 20464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误', '备注': '登录功能测试', '描述': '登录功能测试'}" ]
+    } ],
+    "uid" : "testcase.TestKeywords"
+  } ]
+}

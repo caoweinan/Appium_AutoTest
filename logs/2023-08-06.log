@@ -1,0 +1,20 @@
+2023-08-06 18:32:00,909 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2023-08-06 18:36:08,620 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2023-08-06 20:12:38,076 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2023-08-06 20:48:02,581 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2023-08-06 20:57:37,835 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)

@@ -1,0 +1,113 @@
+2023-08-08 14:26:30,221 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取TestCases表测试个数2，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}, {'序号': 3.0, '描述': '搜索功能', 'TC_ID': 'TC_Find', '是否运行': 'y', '备注': '搜索功能测试'}]
+2023-08-08 14:26:30,252 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取CaseData表测试个数2，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}, {'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=14400000000,password=123456', '期望结果': '成功'}]
+2023-08-08 14:26:30,252 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取CaseData表测试个数3，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}, {'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=14400000000,password=123456', '期望结果': '成功'}, {'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}]
+2023-08-08 14:28:45,475 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取TestCases表测试个数2，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}, {'序号': 3.0, '描述': '搜索功能', 'TC_ID': 'TC_Find', '是否运行': 'y', '备注': '搜索功能测试'}]
+2023-08-08 14:28:45,507 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取CaseData表测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}]
+2023-08-08 14:28:45,507 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取CaseData表测试个数2，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}, {'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}]
+2023-08-08 14:29:02,052 - TestKeywords - INFO - 执行用例内容：{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}
+2023-08-08 14:29:02,086 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS001', '步骤名称': '同意服务和隐私协议', '操作': 'click', '元素名称': 'El_allow_button', '数据': ''}
+2023-08-08 14:29:02,115 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_allow_button', '定位类型': 'id', '元素信息': 'com.boxuegu:id/agree_button'}
+2023-08-08 14:29:02,118 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:03,710 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS002', '步骤名称': '跳过启动页广告', '操作': 'click', '元素名称': 'El_jump_btn', '数据': ''}
+2023-08-08 14:29:03,711 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_jump_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/jumpBtn'}
+2023-08-08 14:29:03,712 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:04,805 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS003', '步骤名称': '进入首页', '操作': 'click', '元素名称': 'El_start_btn', '数据': ''}
+2023-08-08 14:29:04,805 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_start_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/start_btn'}
+2023-08-08 14:29:04,807 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:06,552 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS004', '步骤名称': '点击我的', '操作': 'click', '元素名称': 'El_tab_me', '数据': ''}
+2023-08-08 14:29:06,552 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_tab_me', '定位类型': 'xpath', '元素信息': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.ImageView[3]'}
+2023-08-08 14:29:06,553 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:10,849 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS005', '步骤名称': '选择其他登录方式', '操作': 'click', '元素名称': 'El_other_login_btn', '数据': ''}
+2023-08-08 14:29:10,850 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_other_login_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/btn_account_login'}
+2023-08-08 14:29:10,851 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:12,596 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS006', '步骤名称': '选择密码登录方式', '操作': 'click', '元素名称': 'El_pwd_login', '数据': ''}
+2023-08-08 14:29:12,597 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_pwd_login', '定位类型': 'id', '元素信息': 'com.boxuegu:id/passwordLoginTv'}
+2023-08-08 14:29:12,600 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:13,396 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS007', '步骤名称': '勾选我已阅读并同意', '操作': 'click', '元素名称': 'El_service_btn', '数据': ''}
+2023-08-08 14:29:13,396 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_service_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/service_cb'}
+2023-08-08 14:29:13,397 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:14,198 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS008', '步骤名称': '输入用户名', '操作': 'text', '元素名称': 'El_username', '数据': 'username'}
+2023-08-08 14:29:14,199 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_username', '定位类型': 'id', '元素信息': 'com.boxuegu:id/edit_usr'}
+2023-08-08 14:29:14,199 - operate - DEBUG - 该关键字是send_keys
+2023-08-08 14:29:16,049 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS009', '步骤名称': '输入密码', '操作': 'text', '元素名称': 'El_password', '数据': 'password'}
+2023-08-08 14:29:16,049 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_password', '定位类型': 'id', '元素信息': 'com.boxuegu:id/edit_pwd'}
+2023-08-08 14:29:16,051 - operate - DEBUG - 该关键字是send_keys
+2023-08-08 14:29:18,649 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS010', '步骤名称': '点击登录按钮', '操作': 'click', '元素名称': 'El_login_btn', '数据': ''}
+2023-08-08 14:29:18,649 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_login_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/btn_login'}
+2023-08-08 14:29:18,652 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:29:20,148 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS011', '步骤名称': '结果验证（获取toast）', '操作': 'verify_toast', '元素名称': 'El_login_toast', '数据': ''}
+2023-08-08 14:29:20,149 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_login_toast', '定位类型': 'xpath', '元素信息': 'com.boxuegu:id/other_login_btn'}
+2023-08-08 14:29:20,150 - operate - DEBUG - 该关键字是is_toast_exist
+2023-08-08 14:29:20,647 - Base_Page - INFO - 获取toast内容为：账号或密码错误
+2023-08-08 14:29:23,299 - TestKeywords - INFO - 执行用例内容：{'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}
+2023-08-08 14:29:23,300 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Find', '步骤ID': 'TSFind001', '步骤名称': '跳过启动页广告', '操作': 'click', '元素名称': 'El_jump_btn', '数据': ''}
+2023-08-08 14:29:23,300 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Find', '元素名称': 'El_jump_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/jumpBtn'}
+2023-08-08 14:29:23,301 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:30:11,001 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2023-08-08 14:31:52,300 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取TestCases表测试个数2，数据内容[{'序号': 1.0, '描述': '登录功能测试', 'TC_ID': 'TC_Login', '是否运行': 'y', '备注': '登录功能测试'}, {'序号': 3.0, '描述': '搜索功能', 'TC_ID': 'TC_Find', '是否运行': 'y', '备注': '搜索功能测试'}]
+2023-08-08 14:31:52,328 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取CaseData表测试个数1，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}]
+2023-08-08 14:31:52,329 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取CaseData表测试个数2，数据内容[{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}, {'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}]
+2023-08-08 14:32:05,795 - TestKeywords - INFO - 执行用例内容：{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '登录失败', '测试数据': 'username=14400000000,password=1234567', '期望结果': '错误'}
+2023-08-08 14:32:05,826 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS001', '步骤名称': '同意服务和隐私协议', '操作': 'click', '元素名称': 'El_allow_button', '数据': ''}
+2023-08-08 14:32:05,854 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_allow_button', '定位类型': 'id', '元素信息': 'com.boxuegu:id/agree_button'}
+2023-08-08 14:32:05,855 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:07,540 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS002', '步骤名称': '跳过启动页广告', '操作': 'click', '元素名称': 'El_jump_btn', '数据': ''}
+2023-08-08 14:32:07,540 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_jump_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/jumpBtn'}
+2023-08-08 14:32:07,541 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:08,541 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS003', '步骤名称': '进入首页', '操作': 'click', '元素名称': 'El_start_btn', '数据': ''}
+2023-08-08 14:32:08,541 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_start_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/start_btn'}
+2023-08-08 14:32:08,542 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:10,267 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS004', '步骤名称': '点击我的', '操作': 'click', '元素名称': 'El_tab_me', '数据': ''}
+2023-08-08 14:32:10,268 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_tab_me', '定位类型': 'xpath', '元素信息': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.ImageView[3]'}
+2023-08-08 14:32:10,269 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:14,791 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS005', '步骤名称': '选择其他登录方式', '操作': 'click', '元素名称': 'El_other_login_btn', '数据': ''}
+2023-08-08 14:32:14,791 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_other_login_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/btn_account_login'}
+2023-08-08 14:32:14,792 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:16,498 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS006', '步骤名称': '选择密码登录方式', '操作': 'click', '元素名称': 'El_pwd_login', '数据': ''}
+2023-08-08 14:32:16,498 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_pwd_login', '定位类型': 'id', '元素信息': 'com.boxuegu:id/passwordLoginTv'}
+2023-08-08 14:32:16,499 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:17,292 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS007', '步骤名称': '勾选我已阅读并同意', '操作': 'click', '元素名称': 'El_service_btn', '数据': ''}
+2023-08-08 14:32:17,292 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_service_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/service_cb'}
+2023-08-08 14:32:17,293 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:18,041 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS008', '步骤名称': '输入用户名', '操作': 'text', '元素名称': 'El_username', '数据': 'username'}
+2023-08-08 14:32:18,041 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_username', '定位类型': 'id', '元素信息': 'com.boxuegu:id/edit_usr'}
+2023-08-08 14:32:18,042 - operate - DEBUG - 该关键字是send_keys
+2023-08-08 14:32:19,795 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS009', '步骤名称': '输入密码', '操作': 'text', '元素名称': 'El_password', '数据': 'password'}
+2023-08-08 14:32:19,795 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_password', '定位类型': 'id', '元素信息': 'com.boxuegu:id/edit_pwd'}
+2023-08-08 14:32:19,796 - operate - DEBUG - 该关键字是send_keys
+2023-08-08 14:32:22,242 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS010', '步骤名称': '点击登录按钮', '操作': 'click', '元素名称': 'El_login_btn', '数据': ''}
+2023-08-08 14:32:22,242 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_login_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/btn_login'}
+2023-08-08 14:32:22,244 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:32:23,691 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS011', '步骤名称': '结果验证（获取toast）', '操作': 'verify_toast', '元素名称': 'El_login_toast', '数据': ''}
+2023-08-08 14:32:23,691 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_login_toast', '定位类型': 'xpath', '元素信息': 'com.boxuegu:id/other_login_btn'}
+2023-08-08 14:32:23,692 - operate - DEBUG - 该关键字是is_toast_exist
+2023-08-08 14:32:24,543 - Base_Page - INFO - 获取toast内容为：账号或密码错误
+2023-08-08 14:32:27,092 - TestKeywords - INFO - 执行用例内容：{'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}
+2023-08-08 14:32:27,092 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Find', '步骤ID': 'TSFind001', '步骤名称': '跳过启动页广告', '操作': 'click', '元素名称': 'El_jump_btn', '数据': ''}
+2023-08-08 14:32:27,092 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Find', '元素名称': 'El_jump_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/jumpBtn'}
+2023-08-08 14:32:27,093 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:33:14,293 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2023-08-08 14:37:27,595 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 3.0, '描述': '搜索功能', 'TC_ID': 'TC_Find', '是否运行': 'y', '备注': '搜索功能测试'}]
+2023-08-08 14:37:27,625 - /Users/weinancao/PycharmProjects/Appium_AutoTest/utils/LogUtil.py - DEBUG - 获取CaseData表测试个数1，数据内容[{'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}]
+2023-08-08 14:37:41,040 - TestKeywords - INFO - 执行用例内容：{'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}
+2023-08-08 14:37:41,069 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Find', '步骤ID': 'TSFind001', '步骤名称': '跳过启动页广告', '操作': 'click', '元素名称': 'El_jump_btn', '数据': ''}
+2023-08-08 14:37:41,093 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Find', '元素名称': 'El_jump_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/jumpBtn'}
+2023-08-08 14:37:41,095 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:38:27,832 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2023-08-08 14:38:30,368 - TestKeywords - INFO - 执行用例内容：{'TC_ID': 'TC_Find', 'CASE_ID': 'Case_008', '是否运行': 'y', '用例名称': '查询123', '测试数据': 'value=123', '期望结果': ''}
+2023-08-08 14:38:30,369 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_Find', '步骤ID': 'TSFind001', '步骤名称': '跳过启动页广告', '操作': 'click', '元素名称': 'El_jump_btn', '数据': ''}
+2023-08-08 14:38:30,369 - operate - DEBUG - 元素信息{'TC_ID': 'TC_Find', '元素名称': 'El_jump_btn', '定位类型': 'id', '元素信息': 'com.boxuegu:id/jumpBtn'}
+2023-08-08 14:38:30,370 - operate - DEBUG - 该关键字是click_btn
+2023-08-08 14:39:16,952 - Base_Page - ERROR - 没有找到该元素：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)

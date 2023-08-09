@@ -1,0 +1,14 @@
+INFO     appium_start:StartAppium.py:85 获取的devices信息udid：['WQVNW18305004438', '127.0.0.1:5555']
+INFO     appium_start:StartAppium.py:22 port 4723 is not used
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m Welcome to Appium v1.16.0
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m Non-default server args:
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m   address: 127.0.0.1
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m   sessionOverride: true
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m   udid: WQVNW18305004438
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m Deprecated server args:
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m   [31m-U,--udid[39m => --default-capabilities '{"udid":"WQVNW18305004438"}'
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m   udid: WQVNW18305004438
+INFO     appium_start:StartAppium.py:38 [35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+INFO     appium_start:StartAppium.py:43 启动成功，启动的参数是：host:127.0.0.1,port:4723,bpport:4724,udid:WQVNW18305004438
+INFO     appium_start:StartAppium.py:19 port 4723 is used!
