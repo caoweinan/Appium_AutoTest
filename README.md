@@ -1,4 +1,4 @@
-# Appium_AutoTest
+# 【移动端】Appium+关键字驱动+Pytest参数化+Allure测试报告
 ```python
 关键字驱动测试框架代码结构
 # app           apk安装目录
