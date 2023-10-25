@@ -4,6 +4,7 @@ import os
 from base.Allure_Report import allure_generate
 from conf import Conf
 import concurrent.futures
+from base.SendEmail import send_mail
 
 
 # 1、ProcessPoolExecutor并发，方法实现
@@ -13,6 +14,8 @@ def run_pytest(device):
     pytest.main([f"--cmdopt={device}","--alluredir",report_path])  # 加f表示{cmdopt}是个参数
     # time.sleep(2)
     allure_generate(report_path, report_html)
+    time.sleep(3)
+    send_mail(content="测试完成，请查看测试报告")
 
 # 3、ProcessPoolExecutor并发，pool并发
 def run_pool(devices):
