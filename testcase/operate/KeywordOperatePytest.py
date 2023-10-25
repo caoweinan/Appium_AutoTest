@@ -10,6 +10,7 @@ from utils.LogUtil import my_log
 from conf import Conf
 from utils.YamlUtil import YamlReader
 from utils.HTMLTestRunner3 import HTMLTestRunner
+import time
 
 
 """
@@ -76,7 +77,7 @@ class Operate():
             operate = self.get_keyword(step[TestSteps.STEP_OPERATE])
 
             # 判断操作，是否存在，存在运行，不存在不执行步骤
-            if operate:
+            if operate not in ["swipeUp", "swipeLift"]:
                 # 定义方法参数：字典by、value、send、expect(期望结果)
                 param_value = dict()
 
@@ -106,6 +107,13 @@ class Operate():
                 # step:表格中TestSteps，步骤名称可以作为step
                 with allure.step(step[TestSteps.STEP_NAME]):
                     action_method(**param_value)
+            elif operate == "swipeLift":
+                log.debug("该关键字是：{}".format(operate))
+                Action(self.driver).swipeLift(n=4)
+            elif operate == "swipeUp":
+                time.sleep(1)
+                log.debug("该关键字是：{}".format(operate))
+                Action(self.driver).swipeUp()
             else:
                 log.error("没有operate信息：{}".format(operate))
 

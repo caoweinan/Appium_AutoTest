@@ -147,6 +147,35 @@ class Action:
         toast_result = self.is_toast_exist(**kwargs)
         assert toast_result
 
+    # 获取屏幕尺寸
+    def get_size(self):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        return x, y
+
+    # 显示屏幕尺寸
+    # l = get_size()
+    # print(l)
+
+    # 向左水平滑动
+    def swipeLift(self, t=500, n=2):
+        l = self.get_size()
+        x1 = int(l[0] * 0.9)
+        y1 = int(l[1] * 0.5)
+        x2 = int(l[0] * 0.1)
+        # 向左滑动2次
+        for i in range(n):
+            self.driver.swipe(x1, y1, x2, y1, t)
+
+    # 向上滑动
+    def swipeUp(self, t=500, n=1):
+        l = self.get_size()
+        x1 = int(l[0] * 0.5)
+        y1 = int(l[1] * 0.75)
+        y2 = int(l[1] * 0.25)
+        for i in range(n):
+            self.driver.swipe(x1, y1, x1, y2, t)
+
 # 定义一个装饰器，其他方法错误的时候也进行拍图操作
 # 1、定义装饰器2层函数
 def screenshot_allure(func):

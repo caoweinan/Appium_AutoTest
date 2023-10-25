@@ -49,7 +49,7 @@ class ExcelReader:
 
 if __name__ == '__main__':
     # 对象初始化
-    reader = ExcelReader("../excel_test/data.xls","TestCases")
+    reader = ExcelReader("../data/data.xls","TestCases")
     print(reader.data())
 
 # # 【练习】：格式转换，[{"序号":"1","描述":"登录功能测试"},{"序号":"2","描述":"注册功能测试"}]

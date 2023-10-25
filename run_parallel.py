@@ -30,6 +30,7 @@ if __name__ == '__main__':
                  "systemPort":8200,
                  "name":"华为真机FLA-AL10"}
 
+    # 如果adb devices看不到mumu模拟器，输入adb connect 127.0.0.1:7555就可以直接连上mumu模拟器
     devices_2 = {"host": "127.0.0.1",
               "port": "4725",
               "bpport": "4726",
